@@ -7,3 +7,5 @@ python3 todoapp.py add Something todo
 ```
 
 and etc. 
+
+P.S. In all honesty I never use todo apps. Making this one was pure execrcise.
