@@ -42,7 +42,10 @@ class Tasklist:
 
     def list_tasks(self, args:Namespace | None = None):
         if len(self.tasks) < 1:
-            print("Nothig in the list yet. You can start adding tasks!", file=stdout)
+            print(
+                "Nothig in the list yet. You can start adding tasks!",
+                file=stdout
+            )
         for id, task in enumerate(self.tasks):
             print(
                     id,
